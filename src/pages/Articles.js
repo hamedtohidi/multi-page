@@ -4,7 +4,7 @@ import  { useEffect } from 'react'
 
 export default function Home() {
     const {id} = useParams()
-    const url = 'http://localhost:3000/articles/' +id
+    const url = 'https://jsonplaceholder.typicode.com/posts/' +id
     const{data:article,isLoading, error } = useFetch(url)
     const navigate = useNavigate()
     useEffect(() =>{
@@ -19,7 +19,7 @@ export default function Home() {
       {article && (
         <div>
           <h2>{article.title}</h2>
-          <p>{article.author}</p>
+          <p><strong>Author</strong>: User #{article.userId}</p>
           <p>{article.body}</p>
         </div>
       )}

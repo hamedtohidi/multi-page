@@ -1,0 +1,22 @@
+{
+    "articles":[
+        {
+            "id":"1",
+            "title":"welcome to the site",
+            "author":"mahdi",
+            "body":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi deserunt quaerat fuga harum vel corporis animi similique rem magnam, fugiat enim vitae culpa rerum insto ? Molestiae, beatae. praesentium, odit a ?"
+        },
+        {
+            "id":"2",
+            "title":"5 react tips for beginners",
+            "author":"nader",
+            "body":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi deserunt quaerat fuga harum vel corporis animi similique rem magnam, fugiat enim vitae culpa rerum insto ? Molestiae, beatae. praesentium, odit a ?"  
+        },
+        {
+            "id":"3",
+            "title":"vsCode best packages",
+            "author":"Bahram",
+            "body":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi deserunt quaerat fuga harum vel corporis animi similique rem magnam, fugiat enim vitae culpa rerum insto ? Molestiae, beatae. praesentium, odit a ?"   
+        }
+    ]
+}
